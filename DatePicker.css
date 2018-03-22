@@ -1,0 +1,65 @@
+.datepiker-wrapper{
+	width: 240px;
+	color:#666 ;
+	box-shadow: 2px 2px 8px 2px rgba(128,128,128,.3);
+    display: none;
+    position: absolute;
+	}
+
+.datepiker-wrapper-show{
+	display: block;
+}	
+
+.datepiker-wrapper .datepiker-header{
+	padding: 2 20px;
+	height: 50px;
+	line-height:50px ;
+	text-align: center;
+	background-color: #f0f0f0;
+	border-bottom:1px solid #ccc;
+	font-weight: bold;
+}
+
+.datepiker-wrapper a{
+	font-family: serif;
+	font-size: 16px;
+	width: 20px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	color: #1abc9c;
+}
+
+.datepiker-nextBtn{
+	float: right;
+}
+
+.datepiker-prevBtn{
+	float: left;
+}
+
+.datepiker-body table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.datepiker-body table th 
+.datepiker-body table td{
+	text-align: center;
+}
+
+.datepiker-body table th{
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+}
+.datepiker-body table td{
+	border: 1px solid #F0F0F0;
+	font-size: 10px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	text-align: center;
+	
+}
